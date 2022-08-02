@@ -92,3 +92,33 @@
 //     console.log(`John´s1 ${bmiJohn1} BMI is bigger than Mark´s1 ${bmiMark1} BMI`)
 // }
 
+// Practice #2
+
+console.log('Practice #2');
+
+const dolScore = 96;
+const dolScore1 = 108;
+const dolScore2 = 89;
+
+const koaScore = 88;
+const koaScore1 = 91;
+const koaScore2 = 110;
+
+const aveScoreDol = (dolScore + dolScore1 + dolScore2) / 3;
+
+const aveScoreKoa = (koaScore + koaScore1 + koaScore2) / 3;
+
+console.log(`Average score Dolphins ${aveScoreDol}`);
+console.log(`Average score Koalas ${aveScoreKoa}`);
+
+if (aveScoreDol && aveScoreKoa >= 100) {
+    if(aveScoreDol > aveScoreKoa){
+        console.log(`The team winner is Dolphins with ${aveScoreDol} average score`);
+    } else if(aveScoreDol < aveScoreKoa){
+        console.log(`The team winner is Koalas with ${aveScoreKoa} average score`);
+    } else if (aveScoreDol = aveScoreKoa) {
+        console.log(`draw means they have the same average score. Dolphins Team's with ${aveScoreDol} and Koalas Team's with ${aveScoreKoa}`);}
+} else {
+    console.log("No completly minimum score required")
+    }
+
