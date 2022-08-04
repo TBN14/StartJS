@@ -94,31 +94,40 @@
 
 // Practice #2
 
-console.log('Practice #2');
+// console.log('Practice #2');
 
-const dolScore = 96;
-const dolScore1 = 108;
-const dolScore2 = 89;
+// const dolScore = 96;
+// const dolScore1 = 108;
+// const dolScore2 = 89;
 
-const koaScore = 88;
-const koaScore1 = 91;
-const koaScore2 = 110;
+// const koaScore = 88;
+// const koaScore1 = 91;
+// const koaScore2 = 110;
 
-const aveScoreDol = (dolScore + dolScore1 + dolScore2) / 3;
+// const aveScoreDol = (dolScore + dolScore1 + dolScore2) / 3;
 
-const aveScoreKoa = (koaScore + koaScore1 + koaScore2) / 3;
+// const aveScoreKoa = (koaScore + koaScore1 + koaScore2) / 3;
 
-console.log(`Average score Dolphins ${aveScoreDol}`);
-console.log(`Average score Koalas ${aveScoreKoa}`);
+// console.log(`Average score Dolphins ${aveScoreDol}`);
+// console.log(`Average score Koalas ${aveScoreKoa}`);
 
-if (aveScoreDol && aveScoreKoa >= 100) {
-    if(aveScoreDol > aveScoreKoa){
-        console.log(`The team winner is Dolphins with ${aveScoreDol} average score`);
-    } else if(aveScoreDol < aveScoreKoa){
-        console.log(`The team winner is Koalas with ${aveScoreKoa} average score`);
-    } else if (aveScoreDol = aveScoreKoa) {
-        console.log(`draw means they have the same average score. Dolphins Team's with ${aveScoreDol} and Koalas Team's with ${aveScoreKoa}`);}
-} else {
-    console.log("No completly minimum score required")
-    }
+// if (aveScoreDol && aveScoreKoa >= 100) {
+//     if(aveScoreDol > aveScoreKoa){
+//         console.log(`The team winner is Dolphins with ${aveScoreDol} average score`);
+//     } else if(aveScoreDol < aveScoreKoa){
+//         console.log(`The team winner is Koalas with ${aveScoreKoa} average score`);
+//     } else if (aveScoreDol = aveScoreKoa) {
+//         console.log(`draw means they have the same average score. Dolphins Team's with ${aveScoreDol} and Koalas Team's with ${aveScoreKoa}`);}
+// } else {
+//     console.log("No completly minimum score required")
+//     }
 
+
+// Practice #3
+
+console.log('Practice #3');
+
+const bill = 301;
+const tip = (bill >= 50 && bill <= 300) ? (bill * (15/100)) : (bill * (20/100)); 
+
+console.log(`The bill was ${bill}, the tip was ${tip} and the total value ${bill + tip}`);
